@@ -3,8 +3,8 @@ import React from 'react'
 const Hero_2 = () => {
     return (
         <>
-            <div className="flex justify-between gap-100 px-4 pt-16 mt-[160px] mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full bg-hero2 rounded-4xl">
-                <div className="flex-[0_0_80%]">
+            <div className="flex justify-between items-end  px-4 pt-16 mt-[160px] mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full bg-hero2 rounded-4xl">
+                <div className="flex-[0_0_70%]">
                     <div className="mb-16 lg:max-w-lg lg:mb-0">
                         <div className="max-w-xl mb-6">
 
@@ -26,10 +26,11 @@ const Hero_2 = () => {
 
                         </div>
                     </div>
-                </div>                <div className="flex-[20%]">
+                </div>                
+                <div className="flex-[0_0_30%]  lg:block justify-end items-center">
                     <img
-                        src="https://kitwind.io/assets/kometa/full-browser.png"
-                        className="w-3xl h-auto object-contain rounded shadow-2xl"
+                        src="src/assets/Images/footer_image.jpg"    
+                        className="w-4xl h-[20rem] rounded-3xl object-cover"
                         alt="Browser illustration"
                     />
                 </div>

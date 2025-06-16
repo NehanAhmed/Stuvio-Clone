@@ -2,7 +2,14 @@ import { ArrowRight } from 'lucide-react'
 import { motion } from 'motion/react'
 import React from 'react'
 
-const Roles = () => {
+const Roles = ({ setcursorVariant}) => {
+    const handleMouseEnter = () => {
+        setcursorVariant("roleHover")
+    }
+    
+    const handleMouseLeave = () => {
+        setcursorVariant("default")
+    }
     return (
         <section style={{
             backgroundColor: 'rgb(255, 214, 51)'
@@ -26,7 +33,8 @@ const Roles = () => {
                     <motion.div whileHover={{
                         backgroundColor: 'black',
                         color: 'white',
-                    }} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
+                    }}  onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
                         <div>
                             <h1 className='font-tusker text-2xl'>UI/UX DESIGNER</h1>
                         </div>
@@ -40,7 +48,8 @@ const Roles = () => {
                     <motion.div whileHover={{
                         backgroundColor: 'black',
                         color: 'white',
-                    }} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
+                    }}  onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
                         <div>
                             <h1 className='font-tusker text-2xl'>GRAPHIC DESIGNER</h1>
                         </div>
@@ -54,7 +63,8 @@ const Roles = () => {
                     <motion.div whileHover={{
                         backgroundColor: 'black',
                         color: 'white',
-                    }} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
+                    }}  onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
                        <div>
                             <h1 className='font-tusker text-2xl'>VR\AR DESIGNER</h1>
                         </div>
@@ -68,7 +78,8 @@ const Roles = () => {
                     <motion.div whileHover={{
                         backgroundColor: 'black',
                         color: 'white',
-                    }} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
+                    }}  onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave} className='h-[80px] flex w-full border-b-2 border-black justify-around items-center'>
                       <div>
                             <h1 className='font-tusker text-2xl'>UX DESIGN MANAGER</h1>
                         </div>

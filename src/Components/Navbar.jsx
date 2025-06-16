@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className='w-full py-5 px-20 flex justify-between items-center text-black'>
         <div className="logo">
-            <h1 className='text-2xl font-tusker font-mx'>STUVIO</h1>
+            <h1 className='text-3xl font-tusker font-mx'>STUVIO</h1>
         </div>
         <div className="flex gap-6">
             <p className='font-tusker font-mx'>WORK</p>
