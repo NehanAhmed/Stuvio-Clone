@@ -1,12 +1,56 @@
-# React + Vite
+# Stuvio Clone - Educational Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="./public/stuvio.svg" alt="Stuvio Logo" width="200"/>
+  <h3>A React-based Clone of Stuvio's Website</h3>
+</div>
 
-Currently, two official plugins are available:
+## 📝 Disclaimer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a clone of [Stuvio's official website](https://www.stuvio.co/) created solely for **educational purposes** and personal development. All rights, designs, and content belong to Stuvio. This is not intended for commercial use.
 
-## Expanding the ESLint configuration
+## ⚡ About This Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is an educational recreation of Stuvio's website using modern web technologies. The project was built to:
+- Practice React.js development
+- Learn advanced animation techniques
+- Implement responsive design
+- Master modern UI/UX principles
+
+## 🛠️ Technologies Used
+
+- React + Vite
+- Framer Motion
+- Tailwind CSS
+- Custom Cursor Implementation
+- Modern JavaScript (ES6+)
+
+## 🎨 Features
+
+- Custom cursor animations
+- Smooth scroll effects
+- Interactive hover states
+- Responsive design
+- Video integration
+- Modern UI components
+
+## 🚀 Learning Outcomes
+
+- Advanced React component architecture
+- Animation implementation with Framer Motion
+- Responsive design principles
+- Performance optimization
+- Modern CSS techniques
+
+## ⚖️ Legal Notice
+
+All rights to the design, branding, and content belong to [Stuvio](https://www.stuvio.co/). This project is:
+- Not affiliated with Stuvio
+- Not for commercial use
+- Created purely for educational purposes
+- A demonstration of web development skills
+
+## 🙏 Attribution
+
+Original website: [www.stuvio.co](https://www.stuvio.co/)  
+All designs, content, and intellectual property belong to Stuvio.
